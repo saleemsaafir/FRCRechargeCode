@@ -18,7 +18,8 @@ import edu.wpi.first.wpilibj.TimedRobot;
 public class Robot extends TimedRobot {
   //set up Joystick(s)
   Joystick gamepad1 = new Joystick(0);
-  /* Logitech Gamepad will be used
+
+  /* A Logitech Gamepad will be used
   Button maps as follows:
   A =========== 01;
   B =========== 02;
@@ -33,7 +34,7 @@ public class Robot extends TimedRobot {
                     **will add axis map soon
   */
   
-  //set up Sparks
+  //initialize Sparks
   Spark leftDriveCIM = new Spark(0); //left drive CIM motors CTRL-->left joy
   Spark rightDriveCIM = new Spark(1);//right drive CIM motors CTRL-->rightjoy
   Spark intakePG27 = new Spark(2); //ball intake PG27 motor CTRL-->toggled by A button
