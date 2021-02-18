@@ -20,16 +20,16 @@ public class Robot extends TimedRobot {
   Joystick gamepad1 = new Joystick(0);
   /* Logitech Gamepad will be used
   Button maps as follows:
-  A =========== 01
-  B =========== 02
-  X =========== 03
-  Y =========== 04
-  Select ====== 05
-  Start ======= 06
-  L Bumper ==== 07
-  R Bumper ==== 08
-  L JoyButton = 09
-  R JoyButton = 10
+  A =========== 01;
+  B =========== 02;
+  X =========== 03;
+  Y =========== 04;
+  Select ====== 05;
+  Start ======= 06;
+  L Bumper ==== 07;
+  R Bumper ==== 08;
+  L JoyButton = 09;
+  R JoyButton = 10;
                     **will add axis map soon
   */
   
